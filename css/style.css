@@ -1,1 +1,41 @@
+:root {
+  --primary-color: #acc6aa;
+  --secondary-color: #f5f2fe;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
 
+body {
+  background-color: var(--primary-color);
+}
+
+h1 {
+  color: #5c715e;
+  font-size: 56px;
+  line-height: 0.5;
+  text-align: center;
+}
+
+.croissant-image {
+  margin: 0 auto;
+  display: block;
+  max-width: 30%;
+  border-radius: 6px;
+  box-shadow: var(--box-shadow);
+}
+.main-description {
+  margin-top: 25px;
+  padding: 10px;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+  background-color: var(--secondary-color);
+  box-shadow: var(--box-shadow);
+  border-radius: 6px;
+}
+
+.links {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 24px;
+  margin-top: 20px;
+}
